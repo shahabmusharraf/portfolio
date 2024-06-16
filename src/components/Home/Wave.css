@@ -1,0 +1,39 @@
+.wave-container {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
+
+.wave {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    height: 11rem;
+    width: 100%;
+    background: url(https://oasisinfobyte.com/wave.png);
+    background-repeat: repeat-x;
+    animation: waves 10s linear infinite;
+}
+
+.wave1 {
+    opacity: .8;
+}
+
+.wave2 {
+    animation-direction: reverse;
+    opacity: .2;
+}
+
+.wave3{
+    animation-duration: 4s;
+    opacity: .5;
+}
+
+@keyframes waves {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 100rem;
+    }
+}

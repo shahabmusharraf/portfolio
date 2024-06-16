@@ -1,0 +1,32 @@
+.container {
+    
+}
+
+.container .text {
+
+}
+
+.sec-text:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid blue;
+    background: linear-gradient(217deg, #03031a, rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, #02171b, rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, #111115, rgba(0,0,255,0) 70.71%);
+
+    animation: animate 4s steps(12) infinite;
+
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}

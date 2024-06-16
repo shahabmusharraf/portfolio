@@ -1,0 +1,13 @@
+.link-container2 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+  }
+  
+  .item {
+    background: white;
+    border-radius: 100%;
+  }
